@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="256px" height="192px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<style type="text/css"><![CDATA[
+
+    circle {
+		fill: #f32344;
+	}
+	
+	]]></style>
+	
+	<circle cx="202" cy="18" r="30" opacity="0">
+		<animate attributeType="CSS" attributeName="opacity" to="0" dur="2s" values="0;0.15;0;" begin="0s" repeatCount="indefinite" />
+		<animate attributeType="XML" attributeName="r" to="100px" begin="0s" dur="2s" values="30;100" repeatCount="indefinite" />
+	</circle>
+	
+	<circle cx="202" cy="18" r="20" opacity="0.2">
+		<animate attributeType="CSS" attributeName="opacity" to="0" dur="2s" values="0;0.2;0;0;" begin="0s" repeatCount="indefinite" />
+		<animate attributeType="XML" attributeName="r" to="90px" begin="0s" dur="2s" values="20;90" repeatCount="indefinite" />
+	</circle>
+	
+	<circle cx="202" cy="18" r="15" opacity="0">
+		<animate attributeType="CSS" attributeName="opacity" to="0" dur="2s" values="0;0.15;0;" begin="0s" repeatCount="indefinite" />
+		<animate attributeType="XML" attributeName="r" to="60px" begin="0s" dur="2s" values="15;60" repeatCount="indefinite" />
+	</circle>
+	
+	<circle cx="202" cy="18" r="10" opacity="0">
+		<animate attributeType="CSS" attributeName="opacity" to="0" dur="2s" values="0;0.15;0;" begin="0s" repeatCount="indefinite" />
+		<animate attributeType="XML" attributeName="r" to="40px" begin="0s" dur="2s" values="10;40" repeatCount="indefinite" />
+	</circle>
+			
+</svg>
